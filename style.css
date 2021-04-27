@@ -15,9 +15,30 @@ body {
 header {
     background: rgb(255, 255, 255);
     width: auto;
-    height: 96px;
+    height: 64px;
 
 }
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    color: #111111;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    font-weight: bold;    
+}
+
+.links a img {
+    padding: 8px 12px;
+}
+
+
 
 
 section .container{
