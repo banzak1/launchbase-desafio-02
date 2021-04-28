@@ -83,10 +83,36 @@ section .container{
 }
 
 .container-recipes .mais-acessadas {
-    margin-top: 24px;
-    margin-bottom: 12px;
+    margin-top: 32px;
+    margin-bottom: 18px;
 }
 
 .container-recipes .mais-acessadas h1{
     font-size: 24px;
+    font-weight: 700;
+}
+
+.receitas-vistas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 18px;
+   
+}
+
+.receitas-vistas .receita img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.receitas-vistas .receita h2 {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.receitas-vistas .receita h3 {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 18px;
 }
