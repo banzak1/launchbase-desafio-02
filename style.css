@@ -65,6 +65,7 @@ section .container{
 .container h1 {
     text-align:left;
     margin-bottom: 12px;
+    font-size: 32px;
 }
 
 .container p {
@@ -78,16 +79,14 @@ section .container{
 
     justify-content: center;
     margin: 64px 32px 0 64px;
-    bottom: 0;
+    bottom: 0;    
+}
 
+.container-recipes .mais-acessadas {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
 
-
-    
-    
-
-
-    
-
-    
-    
+.container-recipes .mais-acessadas h1{
+    font-size: 24px;
 }
