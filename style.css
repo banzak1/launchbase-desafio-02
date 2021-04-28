@@ -68,7 +68,7 @@ section .container{
 }
 
 .container p {
-    text-align: justify;
+    text-align:start;
     
 }
 
