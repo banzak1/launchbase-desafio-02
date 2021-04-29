@@ -93,6 +93,19 @@ section .container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 18px;
+    margin-bottom: 128px;
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 1024px) {
+    .receitas-vistas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+
+
 }
 
 .receitas-vistas .receita img {
