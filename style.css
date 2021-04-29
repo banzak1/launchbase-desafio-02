@@ -139,18 +139,23 @@ footer p {
 
 @media only screen and (min-device-width : 0px) and (max-device-width : 1024px) {
     
-    
-    .receitas-vistas {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 16px;
-        margin-bottom: 64px;
-    }
-
     html {
         font-size: 12px;
     }
+
+    header {
+        margin: 0 5%;
+        
+    }
+
+    header #logo {
+        padding-left: 0;
+    }
+
+    header #logo img {
+        padding-left: 0;
+    }
+
     main {
         margin: 0 5%;
     }
@@ -185,6 +190,14 @@ footer p {
 
     .container .text p {
         text-align: center;
+    }
+
+    .receitas-vistas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 64px;
     }
 
 }
