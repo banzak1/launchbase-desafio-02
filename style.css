@@ -59,7 +59,7 @@ section .container {
 .container h1 {
     text-align: left;
     margin-bottom: 12px;
-    font-size: 32px;
+    font-size: 2.29rem;
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ section .container {
     text-align: start;
     opacity: 0.7;
     line-height: 28px;
-    font-size: 18px;
+    font-size: 1.29rem;
 }
 
 .container .img {
@@ -84,7 +84,7 @@ section .container {
 }
 
 .container-recipes .mais-acessadas h1 {
-    font-size: 24px;
+    font-size: 1.71rem;
     font-weight: 700;
 }
 
@@ -105,12 +105,12 @@ section .container {
 
 .receitas-vistas .receita h2 {
     margin-top: 12px;
-    font-size: 18px;
+    font-size: 1.29rem;
     font-weight: 400;
 }
 
 .receitas-vistas .receita h3 {
-    font-size: 14px;
+    font-size: 1rem;
     color: #777777;
     margin-bottom: 18px;
 }
@@ -132,13 +132,15 @@ footer {
 
 footer p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     color: #999999;
     text-align: center;
 }
 
 
 @media only screen and (min-device-width : 0px) and (max-device-width : 1024px) {
+    
+    
     .receitas-vistas {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -147,8 +149,30 @@ footer p {
         margin-bottom: 64px;
     }
 
+    html {
+        font-size: 12px;
+    }
     main {
-        margin: 0;
+        margin: 0 5%;
+    }
+
+    section .container {
+        display: flex;
+    }
+
+    .container .img {
+        display: none;
+    }
+
+    section .container {
+        width: auto;
+        height: auto;
+        padding: 32px 24px;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }
