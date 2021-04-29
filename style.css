@@ -119,7 +119,6 @@ footer {
     width: 100%;
     height: 60px;
 
-    margin-top: 60px;
     bottom: 0;
 
     background: #eeeeee;
@@ -173,6 +172,10 @@ footer p {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .container .text {
+        margin: 0;
     }
 
 }
