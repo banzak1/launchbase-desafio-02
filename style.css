@@ -64,7 +64,7 @@ section .container {
 }
 
 .container p {
-    text-align: start;
+    
     opacity: 0.7;
     line-height: 28px;
     font-size: 1.29rem;
@@ -175,7 +175,16 @@ footer p {
     }
 
     .container .text {
+        width: 100%;
         margin: 0;
+    }
+
+    .container .text h1 {
+        text-align: center;
+    }
+
+    .container .text p {
+        text-align: center;
     }
 
 }
