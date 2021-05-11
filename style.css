@@ -183,7 +183,21 @@ article p {
     visibility: hidden;
 }
 
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 70%;
+    margin: 5vh auto;
+    position: relative;
+}
 
+.modal .class-modal {
+    color: black;
+    position: absolute;
+    right: 8px;
+    left: 8px;
+    cursor: pointer;
+}
 
 
 
